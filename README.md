@@ -2,6 +2,19 @@
 
 A production-ready REST API for video upload, processing, and streaming built with Node.js and FFmpeg.
 
+## 🌐 Live Demo
+
+Base URL: `https://videoflow-l0jv.onrender.com`
+
+| Endpoint | Method | Description |
+|---|---|---|
+| `/` | GET | Health check |
+| `/api/videos/upload` | POST | Upload video |
+| `/api/videos` | GET | Get all videos |
+| `/api/videos/:id` | GET | Get video by ID |
+| `/api/videos/:id/stream?quality=360p` | GET | Stream video |
+| `/api/videos/:id/stream?quality=720p` | GET | Stream 720p |
+
 ## 🚀 Features
 
 - 📤 Video upload with file validation
