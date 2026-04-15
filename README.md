@@ -24,18 +24,20 @@ A production-ready REST API for video upload, processing, and streaming built wi
 
 ## 📁 Project Structure
 
+```
 videoflow/
 ├── src/
-│   ├── config/        # Database connection
-│   ├── controllers/   # Business logic
-│   ├── models/        # MongoDB schemas
-│   ├── routes/        # API endpoints
+│   ├── config/         # Database connection
+│   ├── controllers/    # Business logic
+│   ├── models/         # MongoDB schemas
+│   ├── routes/         # API endpoints
 │   ├── middleware/     # File upload handling
-│   └── utils/         # FFmpeg utilities
-├── uploads/           # Original videos
-├── processed/         # Transcoded videos
-├── thumbnails/        # Auto-generated thumbnails
-└── server.js          # Entry point
+│   └── utils/          # FFmpeg utilities
+├── uploads/            # Original videos
+├── processed/          # Transcoded videos
+├── thumbnails/         # Auto-generated thumbnails
+└── server.js           # Entry point
+```
 
 ## ⚙️ Installation
 
