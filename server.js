@@ -3,6 +3,9 @@ const cors = require('cors');
 const dotenv = require('dotenv');
 const connectDB = require('./src/config/db');
 const videoRoutes = require('./src/routes/videoRoutes');
+const ffmpegPath = process.env.FFMPEG_PATH || 'ffmpeg';
+const ffmpeg = require('fluent-ffmpeg');
+ffmpeg.setFfmpegPath(ffmpegPath);
 
 dotenv.config();
 
